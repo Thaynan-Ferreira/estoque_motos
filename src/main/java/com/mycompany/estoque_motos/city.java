@@ -14,7 +14,7 @@ package com.mycompany.estoque_motos;
 /**
  * Class city
  */
-public class city {
+public class city extends motocicleta{
 
   //
   // Fields
@@ -22,7 +22,7 @@ public class city {
 
   private String modelo;
   private String cor;
-  private float preco;
+  private String preco;
   
   //
   // Constructors
@@ -38,10 +38,7 @@ public class city {
   // Accessor methods
   //
 
-  /**
-   * Set the value of modelo
-   * @param newVar the new value of modelo
-   */
+  
   public void setModelo (String modelo) {
     this.modelo = modelo;
   }
@@ -54,10 +51,7 @@ public class city {
     return modelo;
   }
 
-  /**
-   * Set the value of cor
-   * @param newVar the new value of cor
-   */
+  
   public void setCor (String cor) {
     this.cor = cor;
   }
@@ -70,11 +64,8 @@ public class city {
     return cor;
   }
 
-  /**
-   * Set the value of preco
-   * @param newVar the new value of preco
-   */
-  public void setPreco (float preco) {
+  
+  public void setPreco (String preco) {
     this.preco = preco;
   }
 
@@ -82,7 +73,7 @@ public class city {
    * Get the value of preco
    * @return the value of preco
    */
-  public float getPreco () {
+  public String getPreco () {
     return preco;
   }
 

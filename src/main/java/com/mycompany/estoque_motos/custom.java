@@ -14,7 +14,7 @@ package com.mycompany.estoque_motos;
 /**
  * Class custom
  */
-public class custom {
+public class custom extends motocicleta{
 
   //
   // Fields
@@ -38,10 +38,7 @@ public class custom {
   // Accessor methods
   //
 
-  /**
-   * Set the value of modelo
-   * @param newVar the new value of modelo
-   */
+ 
   public void setModelo (String modelo) {
     this.modelo = modelo;
   }
@@ -54,10 +51,7 @@ public class custom {
     return modelo;
   }
 
-  /**
-   * Set the value of cor
-   * @param newVar the new value of cor
-   */
+  
   public void setCor (String cor) {
     this.cor = cor;
   }
@@ -70,10 +64,7 @@ public class custom {
     return cor;
   }
 
-  /**
-   * Set the value of preco
-   * @param newVar the new value of preco
-   */
+  
   public void setPreco (float preco) {
     this.preco = preco;
   }
