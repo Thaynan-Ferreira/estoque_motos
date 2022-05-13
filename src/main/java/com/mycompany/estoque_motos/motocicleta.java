@@ -39,8 +39,8 @@ public class motocicleta {
    * Set the value of chassi
    * @param newVar the new value of chassi
    */
-  public void setChassi (String newVar) {
-    chassi = newVar;
+  public void setChassi (String chassi) {
+    this.chassi = chassi;
   }
 
   /**
@@ -55,8 +55,8 @@ public class motocicleta {
    * Set the value of ano
    * @param newVar the new value of ano
    */
-  public void setAno (String newVar) {
-    ano = newVar;
+  public void setAno (String ano) {
+    this.ano = ano;
   }
 
   /**

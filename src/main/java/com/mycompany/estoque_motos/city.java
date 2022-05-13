@@ -42,8 +42,8 @@ public class city {
    * Set the value of modelo
    * @param newVar the new value of modelo
    */
-  public void setModelo (String newVar) {
-    modelo = newVar;
+  public void setModelo (String modelo) {
+    this.modelo = modelo;
   }
 
   /**
@@ -58,8 +58,8 @@ public class city {
    * Set the value of cor
    * @param newVar the new value of cor
    */
-  public void setCor (String newVar) {
-    cor = newVar;
+  public void setCor (String cor) {
+    this.cor = cor;
   }
 
   /**
@@ -74,8 +74,8 @@ public class city {
    * Set the value of preco
    * @param newVar the new value of preco
    */
-  public void setPreco (float newVar) {
-    preco = newVar;
+  public void setPreco (float preco) {
+    this.preco = preco;
   }
 
   /**
