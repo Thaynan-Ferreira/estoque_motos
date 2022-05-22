@@ -21,6 +21,7 @@ public class cadastroDeMotocicleta {
         String modelo;
         String cor;
         String preco;
+        
         int categoria;
         city moto = new city();
         
@@ -40,8 +41,9 @@ public class cadastroDeMotocicleta {
                 ano = entrada.next();
                 moto.setAno(ano);
                 
+                entrada.nextLine(); //ESVAZIA O BUFFER PARA RECEBER UM TIPO DIFERENTE DE ENTRADA
                 System.out.println("Digite o modelo da motocicleta: ");
-                modelo = entrada.next();
+                modelo = entrada.nextLine();
                 moto.setModelo(modelo);
                 
                 System.out.println("Digite o cor da motocicleta: ");
