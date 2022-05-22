@@ -22,7 +22,7 @@ public class custom extends motocicleta{
 
   private String modelo;
   private String cor;
-  private float preco;
+  private String preco;
   
   //
   // Constructors
@@ -65,7 +65,7 @@ public class custom extends motocicleta{
   }
 
   
-  public void setPreco (float preco) {
+  public void setPreco (String preco) {
     this.preco = preco;
   }
 
@@ -73,7 +73,7 @@ public class custom extends motocicleta{
    * Get the value of preco
    * @return the value of preco
    */
-  public float getPreco () {
+  public String getPreco () {
     return preco;
   }
 
